@@ -1,0 +1,217 @@
+.navbar-brand .glyphicon{
+  margin-right:6px;
+}
+
+.hero{
+  background:url(../../assets/img/1.jpg) no-repeat center;
+  background-size:cover;
+  border:none;
+  background-attachment:fixed;
+}
+
+@media (min-width:992px) {
+  .hero .get-it{
+    margin-top:80px;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .get-it{
+    text-align:center;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .phone-preview{
+    text-align:center;
+  }
+}
+
+.hero .get-it .btn{
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+div.iphone-mockup{
+  position:relative;
+  max-width:250px;
+  margin:20px;
+  display:inline-block;
+}
+
+.iphone-mockup img.device{
+  width:100%;
+  height:auto;
+}
+
+.iphone-mockup .screen{
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.iphone-mockup .screen:before{
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
+.icon-feature{
+  text-align:center;
+}
+
+.icon-feature .glyphicon{
+  font-size:60px;
+}
+
+section.features{
+  background-color:#00ffff;
+  padding:40px 0;
+  color:#fff;
+}
+
+.features h2{
+  color:#fff;
+}
+
+.features .icon-features{
+  margin-top:15px;
+}
+
+.testimonials blockquote{
+  text-align:center;
+}
+
+section.testimonials{
+  margin:50px 0;
+}
+
+.site-footer{
+  padding:20px 0;
+  text-align:center;
+  background-color:rgba(72, 67, 73, 1);
+  color:white;
+}
+
+@media (min-width:768px) {
+  .site-footer h5{
+    text-align:left;
+  }
+}
+
+.site-footer h5{
+  color:inherit;
+  font-size:20px;
+}
+
+.site-footer .social-icons a:hover{
+  opacity:1;
+}
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons{
+    text-align:right;
+  }
+}
+
+div.jumbotron.img_section{
+  background:url(../../assets/img/free-cell-phone-repair-2-990x500.jpg) no-repeat center;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+p.paragraph{
+  color:#00ffff;
+}
+
+@media (min-width:767px) {
+  h1.title_img_section{
+    color:#00ffff;
+    font-size:90px;
+    text-align:center;
+    font-weight:600;
+  }
+}
+
+h1.title_img_section{
+  color:#00ffff;
+  font-size:60px;
+  text-align:center;
+  font-weight:600;
+}
+
+.nav > li > a{
+  position:relative;
+  display:block;
+  color:white;
+  padding:10px 15px;
+}
+
+.navbar-default{
+  background-color:#f8f8f8;
+  border-color:rgb(200,249,4);
+  border-right:0px;
+  border-left:0px;
+  border-radius:0;
+}
+
+.shadow{
+  -webkit-text-stroke:2px rgb(31,29,31);
+}
+
+div.row{
+}
+
+div.div-element{
+  background-color:white;
+  margin:5px 5px 5px 5px;
+  box-shadow:1px 1px 1px -1px;
+  padding:15px;
+}
+
+div.col-lg-6.col-md-6.no-padding{
+  padding-right:0px;
+  padding-left:0px;
+}
+
+div.col-md-12.no-padding{
+  padding-right:0px;
+  padding-left:0px;
+}
+
+a.btn.btn-warning.btn-lg{
+  color:rgba(72, 67, 73, 1);
+  background-color:#c3ff00;
+  border:2px solid rgb(72,67,73);
+}
+
